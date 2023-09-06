@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header .title {
+    text-align: center;
+}
+
+.information ul {
+    list-style: none;
+    padding: 0;
+}
+
+.information ul li {
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.information ul i {
+    margin-right: 0.5rem;
+}
+
+
+
